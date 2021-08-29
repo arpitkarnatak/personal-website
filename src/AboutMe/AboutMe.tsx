@@ -12,8 +12,15 @@ function AboutMe() {
 
                 <div className="image-div" style={{ background: Arpit }} />
                 <p className="info">
-                    Hello, this is Arpit. I am a <strong> blockchain enthusiast </strong>, <strong>machine learning enthusiast</strong> and <strong> web technologies</strong>.
+                    Hello, this is Arpit. I have been a <strong> blockchain developer</strong>, <strong>machine learning developer</strong> and <strong> full stack developer</strong>.
+                    Currently I'm working
+                    as a Software Engineering Intern at Nfinita, where we're building an NFT platform.
                 </p>
+                <a href="https://drive.google.com/file/d/1vNZPgcyf4bRnULUwja0eWdlXQbzlXQk-/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <button>
+                        View Resume
+                    </button>
+                </a>
             </div>
         </div>
     )

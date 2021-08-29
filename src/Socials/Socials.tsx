@@ -13,7 +13,7 @@ function Socials() {
                         </svg>
                     </span>
                 </a>
-                <a className="icon instagram" href="https://www.github.com/arpitkarnatak" target="_blank" rel="noreferrer">
+                <a className="icon instagram" href="https://www.instagram.com/arpitkarnatak/" target="_blank" rel="noreferrer">
                     <div className="tooltip">Instagram</div>
                     <span style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <svg className="icon-images" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
