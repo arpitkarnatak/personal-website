@@ -1,0 +1,57 @@
+.Main {
+  width: 100%;
+}
+
+.Header-Main {
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header-Buttons-Group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Header-Buttons {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: 0px solid black;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.Header-Buttons:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.Header-Buttons:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.Header-Buttons:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

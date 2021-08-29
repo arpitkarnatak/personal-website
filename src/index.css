@@ -1,13 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1980' height='980' preserveAspectRatio='none' viewBox='0 0 1980 980'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1062%26quot%3b)' fill='none'%3e%3crect width='1980' height='980' x='0' y='0' fill='url(%23SvgjsLinearGradient1063)'%3e%3c/rect%3e%3cpath d='M494.15822241618883 725.8375484294127L630.8564515596661 626.5204714536546 531.5393745839079 489.82224231017744 394.8411454404308 589.1393192859355z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M819.8304346640081 801.0376284135114L976.6782643975678 734.4596747144832 910.1003106985396 577.6118449809235 753.2524809649799 644.1897986799517z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M970.0334576523576 167.3310871206249L1011.0367144029167 320.3573245895029 1164.0629518717947 279.3540678389438 1123.0596951212356 126.32783037006583z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M956.9569115870145 838.7586216706388L712.6149293857599 703.3176492865721 577.1739570016931 947.6596314878267 821.5159392029477 1083.1006038718933z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1647.6349853627623 497.01934462056613L1798.0805728884793 483.85706123456873 1784.918289502482 333.41147370885176 1634.472701976765 346.57375709484916z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1476.6419805634805 579.5749414425561L1451.5358049266013 375.1015495742356 1247.0624130582808 400.2077252111149 1272.16858869516 604.6811170794354z' fill='rgba(255%2c 255%2c 255%2c 0.2)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1062'%3e%3crect width='1980' height='980' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='12.63%25' y1='-25.51%25' x2='87.37%25' y2='125.51%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1063'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  overflow-x: -moz-hidden-unscrollable;
+  color: #ffffff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  margin: 0px 0px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  background: linear-gradient(#21a0a0, #11b5e4);
+  border: 0px solid white;
+  color: #ffffff;
+  min-width: 50px;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ffffff;
+  border: 0px solid white;
+  color: #11b5e4;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+textarea {
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
 }
