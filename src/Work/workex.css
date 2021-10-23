@@ -1,0 +1,17 @@
+.Work-Ex-Company-Name {
+  transition: 0.5s;
+}
+
+.Work-Ex-Company-Name:hover {
+  text-shadow: 0 1px 4px;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.resposibilities {
+  transition: 0.5s;
+}
+.resposibilities:hover {
+  text-shadow: 0 0 4px;
+  transform: scale(1.05);
+  cursor: pointer;
+}

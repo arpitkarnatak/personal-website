@@ -1,0 +1,16 @@
+.skills-box{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-box:hover{
+    cursor: pointer;
+    color: none;
+    background-color: rgba(255,255,255,0.3);
+}

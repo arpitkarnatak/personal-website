@@ -1,0 +1,37 @@
+{
+  "name": "Arpit Karnatak",
+  "resume": "https://drive.google.com/file/d/1KGRIT0vI_hhXidmpcwZ9EltPkkhz8VYR/view?usp=sharing",
+  "email":"arpitkarnatak47@gmail.com",
+  "work": [
+    {
+      "company": "Nfinita",
+      "position": "Software Developer",
+      "tech": ["Flow Blockchain", "React", "Typescript", "Node"],
+      "tenure": {
+        "from": "July 2021",
+        "to": "Present"
+      },
+      "responsibilities": [
+        "Rewrote existing Node APIs for fetching user data, reducing the resource loading time by 300%",
+        "Developed add-ons and  for OnChainMonkey NFT, increasing the floor price by 30%",
+        "Coded a front end component library for custom components using React",
+        "Designed the error mitigation system to handle the website when blockchain is down.",
+        "Developed custom React hooks for interacting with Flow Blockchain.",
+        "Implemented AWS ElasticSearch and AWS Key Management System for the product."
+      ]
+    },
+    {
+      "company": "SAMSUNG",
+      "position": "Research Intern",
+      "tech": ["Tensorflow", "Python"],
+      "tenure": {
+        "from": "April 2021",
+        "to": "Present"
+      },
+      "responsibilities": [
+        "Developed an object detection technique using Scaled YOLOv4 and SELSA algorithms, yielding an mAP of 80% with a latency of <30ms (on ImageNet dataset)",
+        "Created Python scripts for collection of custom datasets using OpenCV"
+      ]
+    }
+  ]
+}
